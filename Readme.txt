@@ -1,12 +1,13 @@
 Notes:
 There are some differences in the concordance produced from the PDF concordance ouput.
-1. The example did not have seem to correct line numbers. Upon closer study this is
-    likely due to the formatting of the paragraph in question. The paragram has 8
-    lines in the PDF, however the last paragraph word ('marks') is cited on line 3.
+1. At first glance, the PDF ouput contained the right word with the count, but the line numbers
+    for the words were not accurate. Upon closer study this is due an offset of the line wrapp
+    in the PDF. Note - the paragram has 8 lines in the PDF, however the last paragraph word ('marks')
+    is cited on line 3.
 
-2. Another differences in my concordance results from the sample output: 'e.g' vs 'e.g.'.
-   I believe it is a minor difference. My LineParser logic strips out punctuation at start
-   and end of each parsed word.
+2. Another differences in my concordance results from the sample output: 'e.g' vs 'e.g.'. This is 
+   a minor difference, due to a no formal requirment for word. My LineParser logic strips out
+   punctuation at start and end of each parsed word.
 
 Complexity Order
 
